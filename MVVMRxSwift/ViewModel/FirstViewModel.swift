@@ -18,6 +18,7 @@ class FirstViewModel {
     var anotherInputText = Variable<String>("")
     let serviceAgent = APIServiceAgent()
     var arrPost = Variable<[PostNew]>([])
+    let publishSubject = PublishSubject<String>()
   
     //step 3: VM processes Data from
     var textObservable: Observable<String> {
@@ -61,6 +62,7 @@ class FirstViewModel {
                             postNews.append(PostNew(postItem))
                             print(postNews[0].body ?? "")
                             completion(postNews)
+                            self.publishSubject.onNext("\(postNews[0].id)")
                         }
                     }
                 }
