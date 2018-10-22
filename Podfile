@@ -6,6 +6,9 @@ target 'MVVMRxSwift' do
   use_frameworks!
   pod 'RxSwift',    '~> 4.0'
   pod 'RxCocoa',    '~> 4.0'
+  pod 'Alamofire', '~> 4.7'
+  pod 'SwiftyJSON', '~> 3.1.4'
+  pod 'ObjectMapper'
 
   # Pods for MVVMRxSwift
 

@@ -24,6 +24,17 @@
 		8454989F21798CBB000BA3BB /* FirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454989D21798CB5000BA3BB /* FirstViewModel.swift */; };
 		845498A021798CBB000BA3BB /* SuperStarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454989E21798CBA000BA3BB /* SuperStarViewModel.swift */; };
 		845498A221798DB4000BA3BB /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845498A121798DB4000BA3BB /* Utilities.swift */; };
+		84830A412179951F00DE70D8 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84830A402179951F00DE70D8 /* Club.swift */; };
+		84830A45217995CD00DE70D8 /* CustomTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84830A43217995CD00DE70D8 /* CustomTableViewHeader.swift */; };
+		84830A46217995CD00DE70D8 /* CustomTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84830A44217995CD00DE70D8 /* CustomTableViewHeader.xib */; };
+		84B887D4217D6CE100A769EC /* PostMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B887D3217D6CE100A769EC /* PostMapper.swift */; };
+		84B887D6217D7F8200A769EC /* PostNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B887D5217D7F8200A769EC /* PostNew.swift */; };
+		84C03203217C4B8600E38697 /* PostDTOs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03202217C4B8600E38697 /* PostDTOs.swift */; };
+		84C03205217C4B9100E38697 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03204217C4B9100E38697 /* Post.swift */; };
+		84C03208217C4C6B00E38697 /* APIRequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03207217C4C6B00E38697 /* APIRequestProvider.swift */; };
+		84C0320A217C4CA100E38697 /* APIServiceAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03209217C4CA100E38697 /* APIServiceAgent.swift */; };
+		84C0320C217C4CE000E38697 /* APIServiceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C0320B217C4CE000E38697 /* APIServiceObject.swift */; };
+		84C0320E217C4D0C00E38697 /* PostServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C0320D217C4D0C00E38697 /* PostServices.swift */; };
 		9328D2FF768002558D17015B /* Pods_MVVMRxSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DAC1E6D66DAB7BA5C54BE2 /* Pods_MVVMRxSwiftTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +82,17 @@
 		8454989D21798CB5000BA3BB /* FirstViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewModel.swift; sourceTree = "<group>"; };
 		8454989E21798CBA000BA3BB /* SuperStarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperStarViewModel.swift; sourceTree = "<group>"; };
 		845498A121798DB4000BA3BB /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		84830A402179951F00DE70D8 /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
+		84830A43217995CD00DE70D8 /* CustomTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewHeader.swift; sourceTree = "<group>"; };
+		84830A44217995CD00DE70D8 /* CustomTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewHeader.xib; sourceTree = "<group>"; };
+		84B887D3217D6CE100A769EC /* PostMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostMapper.swift; sourceTree = "<group>"; };
+		84B887D5217D7F8200A769EC /* PostNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostNew.swift; sourceTree = "<group>"; };
+		84C03202217C4B8600E38697 /* PostDTOs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDTOs.swift; sourceTree = "<group>"; };
+		84C03204217C4B9100E38697 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		84C03207217C4C6B00E38697 /* APIRequestProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestProvider.swift; sourceTree = "<group>"; };
+		84C03209217C4CA100E38697 /* APIServiceAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceAgent.swift; sourceTree = "<group>"; };
+		84C0320B217C4CE000E38697 /* APIServiceObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceObject.swift; sourceTree = "<group>"; };
+		84C0320D217C4D0C00E38697 /* PostServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostServices.swift; sourceTree = "<group>"; };
 		ADA66D47C377D5DCE4FAC2A5 /* Pods_MVVMRxSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMRxSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48DD00CEBA9639301C6F7BA /* Pods-MVVMRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMRxSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMRxSwift/Pods-MVVMRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		C99EAE6918C4A6B2F5A50C1F /* Pods_MVVMRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,6 +165,7 @@
 		8454984B217989FA000BA3BB /* MVVMRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				84C03206217C4C2C00E38697 /* Networking */,
 				8454989C21798CA3000BA3BB /* ViewModel */,
 				8454988F21798BAD000BA3BB /* Main.storyboard */,
 				8454988D21798B97000BA3BB /* ViewController.swift */,
@@ -179,6 +202,11 @@
 			isa = PBXGroup;
 			children = (
 				8454988321798AF1000BA3BB /* SuperStar.swift */,
+				84830A402179951F00DE70D8 /* Club.swift */,
+				84C03202217C4B8600E38697 /* PostDTOs.swift */,
+				84C03204217C4B9100E38697 /* Post.swift */,
+				84B887D3217D6CE100A769EC /* PostMapper.swift */,
+				84B887D5217D7F8200A769EC /* PostNew.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -202,6 +230,7 @@
 		8454989121798C21000BA3BB /* SuperStarView */ = {
 			isa = PBXGroup;
 			children = (
+				84830A42217995AD00DE70D8 /* Header */,
 				8454989321798C41000BA3BB /* Cell */,
 				8454989221798C3B000BA3BB /* ViewController */,
 			);
@@ -233,6 +262,26 @@
 				8454989E21798CBA000BA3BB /* SuperStarViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		84830A42217995AD00DE70D8 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				84830A43217995CD00DE70D8 /* CustomTableViewHeader.swift */,
+				84830A44217995CD00DE70D8 /* CustomTableViewHeader.xib */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		84C03206217C4C2C00E38697 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				84C03207217C4C6B00E38697 /* APIRequestProvider.swift */,
+				84C03209217C4CA100E38697 /* APIServiceAgent.swift */,
+				84C0320B217C4CE000E38697 /* APIServiceObject.swift */,
+				84C0320D217C4D0C00E38697 /* PostServices.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		A185462CDE84A86040717A3A /* Frameworks */ = {
@@ -354,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8454989721798C52000BA3BB /* SuperStarViewController.xib in Resources */,
+				84830A46217995CD00DE70D8 /* CustomTableViewHeader.xib in Resources */,
 				84549857217989FC000BA3BB /* LaunchScreen.storyboard in Resources */,
 				84549854217989FC000BA3BB /* Assets.xcassets in Resources */,
 				8454989A21798C5F000BA3BB /* CustomTableViewCell.xib in Resources */,
@@ -421,13 +471,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MVVMRxSwift/Pods-MVVMRxSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -460,12 +516,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				845498A021798CBB000BA3BB /* SuperStarViewModel.swift in Sources */,
+				84830A412179951F00DE70D8 /* Club.swift in Sources */,
 				8454989B21798C5F000BA3BB /* CustomTableViewCell.swift in Sources */,
+				84C03205217C4B9100E38697 /* Post.swift in Sources */,
+				84B887D6217D7F8200A769EC /* PostNew.swift in Sources */,
+				84830A45217995CD00DE70D8 /* CustomTableViewHeader.swift in Sources */,
+				84C03203217C4B8600E38697 /* PostDTOs.swift in Sources */,
+				84C0320A217C4CA100E38697 /* APIServiceAgent.swift in Sources */,
+				84C0320E217C4D0C00E38697 /* PostServices.swift in Sources */,
 				8454988421798AF1000BA3BB /* SuperStar.swift in Sources */,
+				84C0320C217C4CE000E38697 /* APIServiceObject.swift in Sources */,
 				8454989621798C52000BA3BB /* SuperStarViewController.swift in Sources */,
+				84B887D4217D6CE100A769EC /* PostMapper.swift in Sources */,
 				8454989F21798CBB000BA3BB /* FirstViewModel.swift in Sources */,
 				845498A221798DB4000BA3BB /* Utilities.swift in Sources */,
 				8454988E21798B97000BA3BB /* ViewController.swift in Sources */,
+				84C03208217C4C6B00E38697 /* APIRequestProvider.swift in Sources */,
 				8454984D217989FA000BA3BB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

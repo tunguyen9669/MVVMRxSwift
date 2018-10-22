@@ -19,10 +19,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var inputTextField: UITextField!
     let firstViewModel = FirstViewModel()
     let disposeBag = DisposeBag()
+    let service = PostServices()
     
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        firstViewModel.getPosts("1") { data in
+            print(data[0].id ?? "")
+        }
+        firstViewModel.getPosts("2") { (data) in
+            print(data[0].id ?? "")
+        }
         
         // step 2: VM receives signals/ data of UI from VC
         inputTextField.rx.text.map {$0 ?? ""}
@@ -33,9 +40,15 @@ class ViewController: UIViewController {
         .bind(to: firstViewModel.anotherInputText)
         .disposed(by: disposeBag)
         
-        // step 4: VC subcribes observable that VM provides
-        firstViewModel.textObservable.subscribe(onNext: { text in
-            self.displayLabel.text = text
+//        // step 4: VC subcribes observable that VM provides
+//        firstViewModel.textObservable.subscribe(onNext: { text in
+//            self.displayLabel.text = text
+//        }).disposed(by: disposeBag)
+        
+        firstViewModel.sendKeyWord.subscribe(onNext: { keyWord in
+            self.firstViewModel.getPosts(keyWord, { (data) in
+                print("Update data")
+            })
         }).disposed(by: disposeBag)
         
         firstViewModel.isValid

@@ -15,4 +15,10 @@ final class Utilities {
         let torres = SuperStar(name: "Fernando Torres", club: "Atletico Madrid", avatar: "boss")
         return [ronaldo, messi, torres]
     }
+    static func createClubData() -> [Club] {
+        let juve = Club(club: "Juventus")
+        let barca = Club(club: "Barcelona")
+        let atletico = Club(club: "Aletico Madrid")
+        return [juve, barca, atletico]
+    }
 }
